@@ -1,0 +1,152 @@
+body{
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+
+.deco_1{
+    background:black;
+    border: 2px black solid;
+    height: 20px;
+    width: 700px;
+    margin: 10% 50% 0% 44%;    
+}
+
+.deco_2{
+    
+    font: Ruda;
+    font-size: 50mm;
+    margin:2% 50% 0% 35%;  
+    height: 100%;
+    width: 100%;   
+    font-weight: bold;
+
+}
+
+.deco_3{
+    font:Ruda;
+    font-size: 180mm;
+    margin:1% 50% 0% 32%;  
+    height: 100%;
+    width: 700px;
+    color: #B88940;
+    font-weight: bold;
+    letter-spacing: 4mm;
+}
+
+.deco_4{
+    font:Ruda;
+    font-size: 85mm;
+    margin:1% 50% 0% 35%;  
+    height: 100%;
+    width: 100%;
+    font-weight: bold;
+}
+
+.deco_5{
+    font:Catamaran;
+    font-size: 45mm;
+    margin:1% 50% 0% 26.5%;  
+    height: 100%;
+    width: 100%;
+    font-weight: bold;
+    letter-spacing: 3mm;
+}
+
+
+.caja_de_rayas{
+
+    height: 700px;
+    width: 100%;
+    background: white;
+    margin: 800px 0px 0px 0px;    
+}
+
+.raya{
+    
+    background: #FFBD59;
+    height: 150px;
+    width: 100%;
+    margin: 200px 0px 5px 0px;
+} 
+
+.container_img{
+    position: absolute;
+    display: flex;
+    height: 900px;
+    width: 100%;
+    background-color: rgba(red, green, blue, alpha);
+    margin: 135px 0px 20px 20px;      
+    transform: translate( 0%, -120%);
+    justify-content: center;
+    /* justify-content: space-around; */
+    transform: translate(-2%, -185%); 
+   
+} 
+
+.img{
+    width: 1100px;
+    height: 2000px;
+    margin-right: 50px;
+}
+
+.img2{
+    width: 1100px;
+    height: 2000px;
+    margin-right: 50px;
+}
+
+.img3{
+    width: 1100px;
+    height: 2000px;  
+}
+
+.precios{
+    font-family: 'catamaran';
+    font-size: 20mm;
+    color: black;
+    margin-top: 20%;
+    margin-left: 20%; 
+    font-weight: bolder;
+}
+
+.precios2{
+    font:Ruda;
+    font-size: 20mm;
+    color: black;
+    margin-top: -2%;
+    margin-left: 44%; 
+    font-weight: bolder;
+}
+
+.precios3{
+    font:Ruda;
+    font-size: 20mm;
+    color: black;
+    margin-top: -2%;
+    margin-left: 67%; 
+    font-weight: bolder;
+}
+
+.fashion{
+    font:Ruda;
+    font-size: 60mm;
+    margin:10% 0% 0% 30%;  
+    height: 100%;
+    width: 100%;
+    color: #B88940;
+    font-weight: bold;
+    letter-spacing: 4mm;
+    
+}
+
+.Lorem_ipsum{
+    font:Ruda;
+    font-size: 31mm;
+    color: black;
+    margin-top: -0.5%;
+    margin-left: 35%; 
+    font-weight: bolder;
+}
