@@ -1,0 +1,323 @@
+
+
+
+
+    
+
+    .circle {
+        margin-left: 0em;
+        margin-top: 3em;
+        width: 2em;         /* Ancho del círculo */
+        height: 2em;        /* Altura del círculo */
+        background-color: #7ED957;  /* Color de fondo del círculo */
+        border-radius: 50%;   /* Hace que el elemento tenga forma de círculo */
+        transform: translateX(120%);
+    }
+           
+    .en_linea{
+    
+        margin-left: 3em;
+        font-size: 200%;
+        transform: translateY(-1.1em);
+    }
+
+    .soluciones_mundiales{
+    
+        margin-left: 36em;
+        font-size: 150%;
+        transform: translateY(-2.6em);
+    }
+
+    .contenedor_1{
+        display: flex;   
+        flex-wrap: wrap;
+        width: 80em; 
+        height: 30em;
+        margin-top:1em;  
+    }
+
+
+    .img1{
+        
+        height: 100em ;
+        width: 80.3em;
+        transform: translateY(-29%);
+    }
+
+    .caja_de_rayas{
+        width:auto ;
+        height: 30em;
+        transform: translate(0em, -90em);
+        
+    }
+
+    .rayas_1{
+        display: flex;
+        align-items: center;
+        width: 29.5em;
+        height: 4em;
+        background: #00BF63;
+        margin-bottom: 0.3em;
+        margin-left: 1em;
+        font-family: Arimo; 
+    }
+
+    .nunca_fue{
+        margin-left: 1.8em;
+        color: aliceblue;
+        letter-spacing: 0.1em;
+        font-size: 3.3em;
+    }
+
+    .rayas_2{
+        display: flex;
+        align-items: center;
+        justify-content: left;
+        width: 49em;
+        height: 4em;
+        background: #00BF63;
+        margin-bottom: 0.3em;
+        margin-left: 1.6em;
+    }
+    
+    .facil{
+        margin-left: 2.60em;
+        color: aliceblue;
+        letter-spacing: 0.1em;
+        font-size: 2.80em;
+        font-family: Arimo; 
+    }
+    
+    .rayas_3{
+        display: flex;
+        align-items: center;
+        font-size: 1.6em;
+        width: 30.6em;
+        height: 2.6em;
+        background-color: #00BF63;
+        margin-bottom: 0.6em;
+        margin-left: 1em;
+    }
+    
+    .mundialmente{
+        margin-left: 2.3em;
+        color: aliceblue;
+        letter-spacing: 0.1em;
+        font-size: 2em;
+        font-family: Arimo; 
+    }
+    
+    .rayas_4{
+        display: flex;
+        align-items: center;
+        width: 40em;
+        height: 2.2em;
+        background-color: black;
+        margin-top: 5em;
+        margin-left: 1.5em;
+    }
+    
+    .mostrar{
+        color: aliceblue;
+        font-family: Arimo; 
+        font-size: 1.5em;
+        margin-left: 4.3em;
+        
+    }
+    
+    .rayas_5{
+        display: flex;
+        align-items: center;  
+        width: 26em;
+        height: 2.2em;
+        background-color: black;
+        margin-top: 1em;
+        margin-left: 3em;
+    }
+    
+    .negocio{
+        
+        color: aliceblue;
+        font-family: Arimo; 
+        font-size: 1.5em;
+        margin-left: 70px;
+        letter-spacing: 0.3mm;
+    }
+    
+     
+    .contenedor_2{
+        display: flex;
+        width: 80em;
+        height: 6em;
+        margin-top: 17em;
+        
+    }
+    
+    .soluciones{
+        
+        color: black;
+        font-family: Arimo; 
+        font-size: 3.5em;
+        margin-left: 2em;
+        left: 0.09em;
+        letter-spacing: 0.5mm;
+        font-weight: bolder;
+    }
+    
+    
+    .sin_importar{
+        
+        color: black;
+        font-family: Arimo; 
+        font-size: 0.5em;
+        margin-left: 0.09em;
+        letter-spacing: 0.009em;
+    
+    }
+     
+    .contenedor_3{
+        
+        display: flex;
+        width: 80em;
+        height: 20em;
+        margin-top: 2.5em;
+        margin-left: 0px;
+        justify-content: center;
+        justify-content:space-around; 
+        align-items: center;
+
+
+       
+    }
+    
+    .img_diseno{
+        width: 17.5em;
+        height: 24.7em;
+        margin-left: 5em;
+    
+    
+    }
+    
+    .img_desarrollo{
+        width: 17.5em;
+        height: 23em;
+          
+        
+    }
+    
+    .img_publicacion{
+        width: 19.5em;
+        height: 20.5em;
+        margin-right: 5em;
+    
+    }
+    
+    .contenedor_4{
+        
+        display: flex;
+        width: 78em;
+        height: 20em;
+        justify-content: center;
+        justify-content: space-around;
+        align-items: center;
+        
+    }
+    
+    .pie_diseno{
+        
+        width: 10em;
+        height: 10em;
+        font-size: 1.8em;
+        margin-left: 4em;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+        
+        /* background: #00BF63; */
+          
+    }
+        
+    .pie_desarrollo{
+        
+        width: 11em;
+        height: 10em;
+        font-size: 1.8em;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+        transform: translateX(0.5em);                
+    }
+        
+    .pie_publicacion{
+        width: 10em;
+        height: 10em;
+        font-size: 1.8em;     
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+        /* background: blueviolet; */
+    }
+    
+    .p1{
+       font: 0.65em Arimo;
+       transform: translateX(-2em);            
+       
+    } 
+
+    .p2{
+        font: 0.65em Arimo;
+        transform: translateX(-2.5em);            
+        
+    }
+
+    .p3{
+        font: 0.65em Arimo;
+        transform: translateX(-2.5em);
+    }
+
+    .contenedor_footer{
+        display: flex;
+        width: 78em;
+        height: 7em;
+        background-color: #00BF63;
+        transform: translateY(-12em);
+        justify-content: center;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .direccion{
+        
+        width: 25em;
+        height: 3em;
+        font-size: 1.3em;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        align-items: center;
+        margin-left: 6em;
+        margin-right: 1em;
+        letter-spacing: 0.08em;
+        transform: translateY(0.8em);
+        
+        /* background: #00BF63; */
+          
+    }
+        
+    .web_site{
+        
+        width: 18em;
+        height: 3em;
+        font-size: 1.3em;
+        margin-right: 3em;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        transform: translateY(0.8em);
+                        
+       
+    }
+        
+    .contact_number{
+        width: 18em;
+        height: 3em;
+        font-size: 1.2em;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        transform: translateY(0.8em);
+    }
